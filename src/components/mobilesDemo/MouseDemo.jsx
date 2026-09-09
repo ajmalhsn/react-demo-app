@@ -1,5 +1,5 @@
 import axios from "axios";
-import { use, useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 
 export function MouseDemo() {
     const [mobiles, setMobiles] = useState([{image:null}]);
@@ -21,6 +21,7 @@ export function MouseDemo() {
                     <img src={mobile.image} alt="mobile" width="100%"/>
                 </div>
                 ))
+            }
             </div>
         </div>
     </div>
